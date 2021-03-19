@@ -7,7 +7,7 @@ else {
     console.log(`Hello, ${userName}!`);
 }*/
 
-(userName === null) ? console.log('Hello!') : console.log(`Hello, ${userName}!`);
+(userName === '') ? console.log('Hello!') : console.log(`Hello, ${userName}!`);
 
 let userQuestion = 'Will I visite Grecee this year?';
 
